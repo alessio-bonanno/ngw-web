@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body
+{
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+#topBar
+{
+    display: inline-block;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(273deg, rgba(0,255,209,1) 2%, rgba(29,94,157,1) 26%, rgba(29,157,153,1) 82%);
+}
+
+#logo
+{
+    position: absolute;
+    top: 2vh;
+    color: rgb(30, 45, 108);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+hr
+{
+    border: none;
+    background-color: rgb(30, 45, 108);
+    height: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+#price-types
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15vh;
+    margin: 0 15vw;
+}
+
+.price-type
+{
+    margin: 0 3px;
+    width: 21vw;
+}
+
+.price-type.business
+{
+    position: relative;
+    box-shadow: 0 0 20px 4px rgb(14, 92, 105);
+    border-radius: 18px;
+    width: 30vw;
+    margin: 0 -1rem;
+    top: -6vh;
+}
+
+.topName
+{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 15%;
+    border: 3px solid rgb(203, 228, 235);
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(203, 228, 235);
+    color: rgb(35, 51, 60);
+    font-size: 2.5rem;
+}
+
+.price-type.business .topName
+{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Abril Fatface;
+}
+
+.price-body
+{
+    border: 3px solid rgb(203, 228, 235);
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.price-text
+{
+    display: flex;
+    color: rgb(83, 98, 107);
+    padding: 0 50px 15px;
+    align-items: center;
+}
+
+.price
+{
+    color: rgb(30, 45, 108);
+    font-weight: bold;
+    font-size: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+}
+
+.price-features
+{
+    list-style: none;
+    padding: 0 10%;
+}
+
+.price-features li
+{
+    display: flex;
+    gap: 1rem;
+    margin: 10%;
+}
+
+.price-features li.cross
+{
+    color: grey;
+}
+
+.price-features li::before
+{
+    content: "\2714";
+    font-weight: bold;
+    color: rgb(30, 45, 108);
+}
+
+.price-features li.cross::before
+{
+    content: "\2A09";
+}

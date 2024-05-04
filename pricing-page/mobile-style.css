@@ -1,0 +1,26 @@
+@media screen and (max-width: 1110px)
+{
+    #topBar
+    {
+        position: fixed;
+    }
+
+    #price-types
+    {
+        flex-direction: column;
+        margin: 0 10%;
+    }
+
+    .price-type
+    {
+        width: 80vw;
+        margin: 0 0 3vh;
+    }
+
+    .price-type.business
+    {
+        width: 80vw;
+        margin: 0 0 3vh;
+        top: unset;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercitazione LocalStorage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Esercitazione LocalStorage</h1>
+        <h3>Utilizzando anche Fetch</h3>
+    </header>
+
+    <main>
+        <div>
+            <button onclick="callApi()">CHIAMA API</button>
+            <input id="input-id" type="number" placeholder="Id del ristorante">
+        </div>
+
+        <section id="restaurants-titles">
+        </section>
+
+        <div>
+            <button onclick="location.reload()">REFRESH</button>
+            <button onclick="clearLocal()">PULISCI LOCAL & REFRESH</button>
+        </div>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
